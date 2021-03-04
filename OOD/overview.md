@@ -7,6 +7,11 @@
         Model
         (ORM)
 
+
+# OOD
+- SOLID
+- Design Patterns
+
 ```
 ## OOD
 - SOLID
