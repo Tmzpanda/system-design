@@ -8,6 +8,7 @@
         (ORM)
 
 
+
 # OOD
 - SOLID
 - Design Patterns
