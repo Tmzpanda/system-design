@@ -7,9 +7,8 @@
         Model
         (ORM)
 
-
-
-# OOD
+```
+## OOD
 - SOLID
   - Single responsibility (separate class)
   - Open to extension, close to modification (interface and abstract class)
@@ -24,8 +23,3 @@
   - Behavioral patterns
       - Strategy
       - Oberver (pub/sub)
-
-
-
-
-```
