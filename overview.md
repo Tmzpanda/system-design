@@ -1,14 +1,20 @@
 ```
-Function       -------->            Service  ---------->  Database                 ------->    Scalable
-Use Case                            + algorithm           + schema                             QPS
-API                                 + data structure                                           + LB or API Gateway
-                                                                                               + Rate Limit
-                                                                                               + DB partition
-                                                                                               + cache 
-                                                                                               + Queue
+Function       -------->            Service  ---------->  Database                 
+Use Case                            + algorithm           + schema                        
+API                                 + data structure      - cache (read)                                 
+                                    - QPS                 - Queue (write)
+                                    - LB or API Gateway   - Capacity                                                   
+                                    - Rate Limit          - DB Partition        
+                                    ! HA                  ! Replication                                        
+                                                                                              
+                                                                                             
 
 
 ```
 
 
 DB Partition
+- RDB sharding: consistent hashing
+- NoSQL
+
+
