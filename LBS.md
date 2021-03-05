@@ -1,11 +1,11 @@
 ```
-Function       -------->            Service  ---------->  Database                 ------->    Scalable
-Use Case                            + algorithm           + schema                             QPS
-API                                 + data structure                                           + LB or API Gateway
-                                                                                               + Rate Limit
-                                                                                               + DB partition
-                                                                                               + cache
-                                                                                              
+Function       -------->            Service  ---------->  Database                 
+Use Case                            + algorithm           + schema                        
+API                                 + data structure      - cache (read)                                 
+                                    - QPS                 - Queue (write)
+                                    - LB or API Gateway   - Capacity                                                   
+                                    - Rate Limit          - DB Partition        
+                                    ! HA                  ! Replication         
                                                                                                
 # Yelp
 # Uber
