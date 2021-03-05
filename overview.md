@@ -18,3 +18,4 @@ DB Partition
 - NoSQL
 
 
+https://github.com/Tmzpanda/system-design-basics
