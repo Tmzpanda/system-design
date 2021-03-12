@@ -12,4 +12,31 @@ API                                 + data structure      - cache (read)
 ```
 
 
+```
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+## Follow
+## Chat
+
+
+## Upload or view
+## News Feed
+
+
+
+
+
 push vs pull
