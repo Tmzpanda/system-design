@@ -7,6 +7,8 @@ front-end           backend
 XMLHttpRequest ->   Apache2 Log -> Flume -> Kafka -> Spark -> Hive      
 
 ```
+- Flume: what data to collect??
+- Hive: how and where to store??
 
 
 ## DB and schema
