@@ -12,7 +12,7 @@ XMLHttpRequest ->   Apache2 Log -> Flume -> Kafka -> Spark -> Hive
 
 
 ## DB and schema
-- Suppose we have the below table (with schema and sample data) in Hive:
+- Suppose we have the below events table (with schema and sample data) in Hive:
 
   | account_id    | date          | event_id  | channel   | device   |
   | ------------- | :-----------: | :-------: | :-------: |:-------: |
