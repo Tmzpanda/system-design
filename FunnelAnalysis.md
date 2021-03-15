@@ -86,7 +86,7 @@ If we deploy the system in production environment:
   - **Spark cluster**: configuration of Yarn and Spark's master-slave architecture will ensure the HA.
   - **Hive**: the underlying HDFS supports replication
 
-- In terms of efficiency
+- In terms of efficiency:
   - add **cache** layer which stores recent query data to reduce response time.
   - leverage hive **partition and bucket** table to avoid full table scan and search only on the target partition/bucket.
 
